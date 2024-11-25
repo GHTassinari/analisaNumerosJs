@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #d9eaf7;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #5a9bd4;
+  color: white;
+  padding: 20px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #4682b4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #315f7d;
+}
+
+select {
+  width: 90%;
+  margin: 10px auto;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+footer {
+  background-color: #5a9bd4;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}

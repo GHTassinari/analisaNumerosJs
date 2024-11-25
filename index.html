@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Valores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Valores</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <p>Digite um número (1 a 100): 
+                    <input type="number" id="valor" placeholder="Ex.: 10">
+                </p>
+                <button onclick="adicionarValor()">Adicionar</button>
+                <br>
+                <select id="listaValores" size="8"></select>
+                <br>
+                <button onclick="finalizarAnalise()">Finalizar</button>
+            </div>
+            <div id="resultado"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido por Guilherme Tassinari</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
